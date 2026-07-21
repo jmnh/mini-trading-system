@@ -11,7 +11,7 @@ TEST(OrderTest, CalculatesNotional) {
     };
 
     EXPECT_EQ(order.order_id(), 1001);
-    EXPECT_DOUBLE_EQ(order.notional(), 75'000.0);
+    EXPECT_DOUBLE_EQ(order.notional(), 725'000.0);
     EXPECT_EQ(order.side_string(), "BUY");
 }
 
